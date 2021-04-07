@@ -1,0 +1,74 @@
+body{
+    margin: 0px 0px;
+
+}
+.bodyDiv{
+    background-color: rgb(58, 58, 105);
+    height: 100vh;
+}
+
+.backQuote{
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(114, 66, 247);
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 60px;
+    transform: translate(-50% ,-50%);
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* margin: auto; */
+   /* margin: 50px 150px 50px 200px; */
+}
+
+/* @media only screen and (max-width:600px){
+    .backQuote{
+        width: 50vw;
+        height: 70vh;
+        background-color: rgb(114, 66, 247);
+        margin: 50px 150px 50px 200px;
+
+    }
+} */
+
+.quotesdiv{
+    width: 30vw;
+    height: 50vh;
+    background-color: #ffff;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 60px;
+    transform: translate(-50% ,-50%);
+}
+
+.fontQuotes{
+    color: rgb(214, 204, 241);
+    font-size: 42px;
+
+}
+
+#quotes{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+#author{
+    font-family: 'Lobster', cursive;
+}
+
+.newQuotes{
+    width: 50%;
+    background-color:rgb(114, 66, 247) ;
+    height: 10%;
+    text-align: center;
+   margin-top: 50px;
+/* overflow: hidden; */
+    position: fixed;
+     cursor: pointer;
+}
+
+.fa-twitter{
+    font-size: 20px;
+    cursor: pointer;
+}
